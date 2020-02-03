@@ -10,7 +10,7 @@ df = pd.DataFrame(data[0])
 df.head()
 #output
 ```
-<img src="Assignment1/output/datauploaded.png">
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/datauploaded.png">
 
 ```python
 df.describe()
