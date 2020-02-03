@@ -17,9 +17,9 @@ df.describe()
 
 ax1 = df['MYCT'].plot.box(grid=True)
 
-ax2 = df['MMIN'].plot.box(grid=True)
+ax2 = df['MMIN'].plot.box(grid=False)
 
-ax3 = df['MMAX'].plot.box(grid=True)
+ax3 = df['MMAX'].plot.box(grid=True, rot=45, fontsize=13)
 
 ax4 = df['CACH'].plot.box(grid=True)
 
