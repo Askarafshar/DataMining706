@@ -10,7 +10,7 @@ df = pd.DataFrame(data[0])
 df.head()
 #output
 ```
-[image](Assignment1/output/datauploaded.png)
+<img src="Assignment1/output/datauploaded.png">
 
 ```python
 df.describe()
