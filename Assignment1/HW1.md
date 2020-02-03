@@ -28,11 +28,13 @@ ax2 = df['MMIN'].plot.box(grid=False)
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax2.png">
+
 ```python
 ax3 = df['MMAX'].plot.box(grid=True, rot=45, fontsize=13)
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax3.png">
+
 ```python
 ax4 = df['CACH'].plot.box(grid=True)
 
