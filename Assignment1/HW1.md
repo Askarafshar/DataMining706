@@ -17,14 +17,23 @@ df.describe()
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/dfDescribe.png">
+
 ```python
-
 ax1 = df['MYCT'].plot.box(grid=True)
-
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax1.png">
+```python
 ax2 = df['MMIN'].plot.box(grid=False)
-
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax2.png">
+```python
 ax3 = df['MMAX'].plot.box(grid=True, rot=45, fontsize=13)
-
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax3.png">
+```python
 ax4 = df['CACH'].plot.box(grid=True)
 
 ax5 = df['CHMIN'].plot.box(grid=True)
