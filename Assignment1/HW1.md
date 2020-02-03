@@ -14,6 +14,10 @@ df.head()
 
 ```python
 df.describe()
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/dataDescribe.png">
+```python
 
 ax1 = df['MYCT'].plot.box(grid=True)
 
