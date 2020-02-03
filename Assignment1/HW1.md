@@ -23,6 +23,7 @@ ax1 = df['MYCT'].plot.box(grid=True)
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax1.png">
+
 ```python
 ax2 = df['MMIN'].plot.box(grid=False)
 #output
@@ -37,10 +38,23 @@ ax3 = df['MMAX'].plot.box(grid=True, rot=45, fontsize=13)
 
 ```python
 ax4 = df['CACH'].plot.box(grid=True)
-
-ax5 = df['CHMIN'].plot.box(grid=True)
-
-ax6 = df['CHMAX'].plot.box(grid=True)
-
-ax7 = df['class'].plot.box(grid=True)
+#output
 ```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax4.png">
+
+```python
+ax5 = df['CHMIN'].plot.box(grid=True)
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax5.png">
+```python
+ax6 = df['CHMAX'].plot.box(grid=True)
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax6.png">
+```python
+ax7 = df['class'].plot.box(grid=True)
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax7.png">
+
