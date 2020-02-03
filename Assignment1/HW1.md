@@ -52,9 +52,11 @@ ax6 = df['CHMAX'].plot.box(grid=True)
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax6.png">
+
 ```python
 ax7 = df['class'].plot.box(grid=True)
 #output
 ```
+
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Assignment1/output/ax7.png">
 
