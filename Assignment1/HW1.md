@@ -8,12 +8,9 @@ from matplotlib import pyplot as plt
 data = arff.loadarff('cpu.with.vendor.arff')
 df = pd.DataFrame(data[0])
 df.head()
-```
-```python
 #output
 ```
-#<img src="your_relative_path_here" width="350" title="hover text">
-![image](Assignment1/output/datauploaded.png)
+[image](Assignment1/output/datauploaded.png)
 
 ```python
 df.describe()
