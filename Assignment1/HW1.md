@@ -9,8 +9,11 @@ data = arff.loadarff('cpu.with.vendor.arff')
 df = pd.DataFrame(data[0])
 df.head()
 ```
+```python
 #output
-![image](datauploaded.png)
+```
+#<img src="your_relative_path_here" width="350" title="hover text">
+![image](Assignment1/output/datauploaded.png)
 
 ```python
 df.describe()
