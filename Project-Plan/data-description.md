@@ -31,4 +31,18 @@ sex =  df_heart['sex'].plot.hist()
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/sex.png">
 
 ```python
+cp =  df_heart['cp'].plot.hist()
+#output
 ```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/cp.png">
+
+```python
+trestbps =  df_heart['trestbps'].plot.box(grid=True)
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/trestbps.png">
+
+```python
+
+```
+
