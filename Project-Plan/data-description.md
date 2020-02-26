@@ -17,6 +17,18 @@ df_heart.describe()
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/attributes.png">
-```python
 
+```python
+age =  df_heart['age'].plot.box(grid=True)
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/age.png">
+
+```python
+sex =  df_heart['sex'].plot.hist()
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/sex.png">
+
+```python
 ```
