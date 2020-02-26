@@ -13,5 +13,10 @@ df_heart.head()
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/1.png">
 
 ```python
+df_heart.describe()
+#output
+```
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/attributes.png">
+```python
 
 ```
