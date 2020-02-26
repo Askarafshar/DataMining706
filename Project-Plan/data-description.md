@@ -10,7 +10,7 @@ df_heart = pd.read_csv("heart.csv")
 df_heart.head()
 #output
 ```
-<img src="https://github.com/Askarafshar/DataMining706/blob/master/Proposal-Plan/output/1.png">
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/1.png">
 
 ```python
 
