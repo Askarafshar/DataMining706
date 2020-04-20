@@ -31,7 +31,7 @@ data = pd.read_csv("heart.csv")
 data.head()
 #output
 ```
-<img src="Part 2: Project draft/img/data.png">
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Part%202:%20Project%20draft/img/data.png">
 
 ```python
 df_heart.describe()
