@@ -1,4 +1,4 @@
-<p style='color:red;'>SIMPLIFIEd TO ACCOUNT FOR COVID-19 CONSTRAINTS 3/21</p>
+<h3> SIMPLIFIEd TO ACCOUNT FOR COVID-19 CONSTRAINTS 3/21</h3>
 
 Some parts moved to optional - if you need an extension, just ask!
 
