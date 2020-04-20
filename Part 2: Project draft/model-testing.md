@@ -39,7 +39,7 @@ data.describe()
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/attributes.png">
 
- The '_split_stratified_into_train_val_test_' function that splits a Pandas dataframe into train, validation, and test dataframes with stratified sampling.[Stackoverflow link](https://stackoverflow.com/questions/38250710/how-to-split-data-into-3-sets-train-validation-and-test)
+ The '_split_stratified_into_train_val_test_' function that splits a Pandas dataframe into train, validation, and test dataframes with stratified sampling.[link](https://stackoverflow.com/questions/38250710/how-to-split-data-into-3-sets-train-validation-and-test)
 ```python
 def split_stratified_into_train_val_test(df_input, stratify_colname='y',
                                          frac_train=0.6, frac_val=0.15, frac_test=0.25,
