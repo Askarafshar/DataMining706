@@ -1,4 +1,4 @@
-SIMPLIFIEd TO ACCOUNT FOR COVID-19 CONSTRAINTS 3/21
+<p style='color:red;'>SIMPLIFIEd TO ACCOUNT FOR COVID-19 CONSTRAINTS 3/21</p>
 
 Some parts moved to optional - if you need an extension, just ask!
 
