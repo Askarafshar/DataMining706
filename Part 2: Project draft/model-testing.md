@@ -129,7 +129,7 @@ def val_percent(df, attribute):
     return percent
 #output
 ```
-<img src="https://github.com/Askarafshar/DataMining706/blob/master/Part%202:%20Project%20draft/img/val_percent.png" align="left">
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Part%202:%20Project%20draft/img/val_percent.png" align="">
 
 ```python
 sex =  df_heart['sex'].plot.hist()
