@@ -101,6 +101,9 @@ def split_stratified_into_train_val_test(df_input, stratify_colname='y',
     assert len(df_input) == len(df_train) + len(df_val) + len(df_test)
 
     return df_train, df_val, df_test
+    
+# Using the above function to split data into train, test, and validation subsets by stratifying on 'ca' attribute, with 60, 20, and 20 fractional ratios, respectively.
+data_train, data_val, data_test = split_stratified_into_train_val_test(data, stratify_colname='ca', frac_train=0.60, frac_val=0.20, frac_test=0.20)
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/age.png">
