@@ -130,7 +130,7 @@ def val_percent(df, attribute):
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Part%202:%20Project%20draft/img/val_percent.png" align="">
-
+#### As shown above, the original, train, test, and validation datasets have the same 'ca' value distribution. 
 ```python
 sex =  df_heart['sex'].plot.hist()
 #output
