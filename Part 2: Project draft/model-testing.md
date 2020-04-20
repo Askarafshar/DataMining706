@@ -109,9 +109,27 @@ def split_stratified_into_train_val_test(df_input, stratify_colname='y',
 data_train, data_val, data_test = split_stratified_into_train_val_test(data, stratify_colname='ca', 
                                                                        frac_train=0.60, frac_val=0.20, 
                                                                        frac_test=0.20)
+
+print(len(data))
+print(len(data_train))
+print(len(data_val))
+print(len(data_test))
+#output
+---------------
+303
+181
+61
+61
+---------------
+#This function prints out the 'ca' values and thier percents in each datasets.
+def val_percent(df, attribute):
+    percent = df[attribute].value_counts().to_dict()
+    for key, value in percent.items():
+        percent[key] = value * 100 / len(df)
+    return percent
 #output
 ```
-<img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/age.png">
+<img src="https://github.com/Askarafshar/DataMining706/blob/master/Part%202:%20Project%20draft/img/val_percent.png" align="left">
 
 ```python
 sex =  df_heart['sex'].plot.hist()
