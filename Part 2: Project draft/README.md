@@ -1,6 +1,6 @@
-<h3> SIMPLIFIEd TO ACCOUNT FOR COVID-19 CONSTRAINTS 3/21</h3>
+<h3 style='color:red;'> SIMPLIFIEd TO ACCOUNT FOR COVID-19 CONSTRAINTS 3/21</h3>
 
-Some parts moved to optional - if you need an extension, just ask!
+**Some parts moved to optional - if you need an extension, just ask!
 
 Your project draft should build on and extend your earlier proposal.  It is essentially a rough draft of your final report.
 
