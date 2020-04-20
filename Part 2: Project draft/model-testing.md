@@ -34,7 +34,7 @@ data.head()
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Part%202:%20Project%20draft/img/data.png">
 
 ```python
-df_heart.describe()
+data.describe()
 #output
 ```
 <img src="https://github.com/Askarafshar/DataMining706/blob/master/Project-Plan/output/attributes.png">
