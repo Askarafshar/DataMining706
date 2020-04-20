@@ -110,16 +110,16 @@ data_train, data_val, data_test = split_stratified_into_train_val_test(data, str
                                                                        frac_train=0.60, frac_val=0.20, 
                                                                        frac_test=0.20)
 
-print(len(data))
-print(len(data_train))
-print(len(data_val))
-print(len(data_test))
+print(data.shape)
+print(data_train.shape)
+print(data_val.shape)
+print(data_test.shape)
 #output
 ---------------
-303
-181
-61
-61
+(303, 14)
+(181, 14)
+(61, 14)
+(61, 14)
 ---------------
 #This function prints out the 'ca' values and thier percents in each datasets.
 def val_percent(df, attribute):
